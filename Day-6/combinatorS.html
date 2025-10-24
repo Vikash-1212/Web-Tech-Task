@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Combinator Selectors</title>
+    <style>
+
+     div h1{
+            background-color: blue;
+        }
+        div>h1{
+            background-color: red;
+        }
+        div+h1{
+            background-color: purple;
+        }
+        div~h1{
+            background-color: orange;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h1>hii</h1>
+        <h1>hellow</h1>
+        <span>
+            <h1>viaksh</h1>
+        </span>
+        <h1>kumar</h1> 
+        <h1>mahto</h1>
+    </div>
+</body>
+</html>
