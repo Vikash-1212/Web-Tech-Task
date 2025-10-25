@@ -1,0 +1,88 @@
+body{
+    margin: 0;
+    text-align: center; /* useed to align the text in centre*/
+    font-family: 'Merriweather', serif;/* used to design the texxt*/
+}
+.paraA{
+    font-size: 1.50rem;
+    color: #000000;
+}
+.paraB{
+    margin-top: 0;
+    font-size: 1.50rem;
+    color: #000000;
+}
+h1{
+    margin: 50px auto 0 auto;
+    font-size: 5.625rem; /*100% = 1em */
+    font-family: 'Sacramento', cursive;
+    color: #270082;
+}
+h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    color: #4E9F3D;
+}
+h3{
+    font-family: 'Montserrat', sans-serif;
+    color: #4E9F3D
+}
+.pro{
+    text-decoration: underline;
+}
+.top{
+    
+
+    
+        background-color: #c6f1ec;
+        /*div used to sperate the box of teo element */
+        position:relative;
+        padding-top: 100px;
+        
+}
+.middle{
+  background-color: #EFFFFD;
+    
+}
+.botton{
+    background-color: #EFFFFD;
+    
+}
+
+.skill-rowA{
+    width: 50%;
+    margin: 100px auto 100px 150px;
+    text-align: left;
+    line-height: 2;
+}
+.skill-rowB{
+    width: 50%;
+    margin: 100px 150px 100px auto;
+    text-align: left;
+    line-height: 2;
+}
+
+.bottom-cloud{
+    position: absolute;  /* to achange the position*/
+    left: 300px;
+    bottom: 300px;
+}
+.upper-cloud{
+   position: absolute;
+   right: 300px;
+   top: 50px;
+
+ }
+ .click{
+     padding-bottom: 10px;
+    background-color: #EFFFFD;
+ }
+ .A{
+    margin-right: 30px;
+     float: left;
+ }
+ .B{
+     margin-left: 30px;
+     float: right;
+
+ }
